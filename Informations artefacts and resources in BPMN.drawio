@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-11T15:50:53.661Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="fiuFLWIzJwX7RYP7Vl4f" version="13.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-11T15:59:21.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="QpTePFnmmHam06q96PsL" version="13.6.2" type="github" pages="4">
   <diagram id="wPF1p56tK3YEznqjjGRR" name="Information Artefacts">
     <mxGraphModel dx="1795" dy="1412" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -394,6 +394,51 @@
             <mxPoint x="550.5" y="525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mAifwKRqNzcdwb_Z951-" name="Pool, Lanes and Text Annotations">
+    <mxGraphModel dx="2060" dy="1323" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="dMozwgcin1lYpaabaZQ3-0" />
+        <mxCell id="dMozwgcin1lYpaabaZQ3-1" parent="dMozwgcin1lYpaabaZQ3-0" />
+        <mxCell id="dMozwgcin1lYpaabaZQ3-2" value="Insurance Company&lt;br&gt;" style="swimlane;html=1;horizontal=0;startSize=20;fillColor=none;" vertex="1" parent="dMozwgcin1lYpaabaZQ3-1">
+          <mxGeometry x="-395" y="-491" width="562" height="765" as="geometry">
+            <mxRectangle x="-395" y="-491" width="24" height="47" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THIVRfTg-Cq_cb45GQQ0-4" value="Customer Service" style="swimlane;html=1;horizontal=0;swimlaneLine=0;fillColor=none;" vertex="1" parent="dMozwgcin1lYpaabaZQ3-2">
+          <mxGeometry x="35" y="379" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="THIVRfTg-Cq_cb45GQQ0-2" value="Includes Packaging" style="html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;fillColor=none;" vertex="1" parent="dMozwgcin1lYpaabaZQ3-1">
+          <mxGeometry x="385" y="-382" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="THIVRfTg-Cq_cb45GQQ0-3" value="Ship Goods" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=none;" vertex="1" parent="dMozwgcin1lYpaabaZQ3-1">
+          <mxGeometry x="270" y="-203" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="THIVRfTg-Cq_cb45GQQ0-6" value="Text Annotations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="dMozwgcin1lYpaabaZQ3-1">
+          <mxGeometry x="236" y="-401" width="98" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="THIVRfTg-Cq_cb45GQQ0-7" value="Pools, Lanes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="dMozwgcin1lYpaabaZQ3-1">
+          <mxGeometry x="-434" y="-530" width="79" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="tOgvvPNcBAwqTl74hKTl-5" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dMozwgcin1lYpaabaZQ3-1" target="THIVRfTg-Cq_cb45GQQ0-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="324" y="-203" as="sourcePoint" />
+            <mxPoint x="374" y="-253" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="324" y="-332" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GoLnDzJSgjwSvpzooE1k" name="Page-4">
+    <mxGraphModel dx="612" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="8TMZo_dq8D0GyLGULoe--0" />
+        <mxCell id="8TMZo_dq8D0GyLGULoe--1" parent="8TMZo_dq8D0GyLGULoe--0" />
       </root>
     </mxGraphModel>
   </diagram>
