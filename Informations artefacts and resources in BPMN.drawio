@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-11T15:59:21.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="QpTePFnmmHam06q96PsL" version="13.6.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-08-11T16:01:26.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="lbENJekCWA2tT04XsMSJ" version="13.6.2" type="github" pages="4">
   <diagram id="wPF1p56tK3YEznqjjGRR" name="Information Artefacts">
     <mxGraphModel dx="1795" dy="1412" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -398,7 +398,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mAifwKRqNzcdwb_Z951-" name="Pool, Lanes and Text Annotations">
-    <mxGraphModel dx="2060" dy="1323" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1412" dy="1323" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dMozwgcin1lYpaabaZQ3-0" />
         <mxCell id="dMozwgcin1lYpaabaZQ3-1" parent="dMozwgcin1lYpaabaZQ3-0" />
@@ -426,16 +426,14 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="324" y="-203" as="sourcePoint" />
             <mxPoint x="374" y="-253" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="324" y="-332" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="GoLnDzJSgjwSvpzooE1k" name="Page-4">
-    <mxGraphModel dx="612" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="612" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="8TMZo_dq8D0GyLGULoe--0" />
         <mxCell id="8TMZo_dq8D0GyLGULoe--1" parent="8TMZo_dq8D0GyLGULoe--0" />
