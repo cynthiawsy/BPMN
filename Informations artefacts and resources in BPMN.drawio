@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-11T15:50:23.834Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="GatTczP_eIWsv_tksgV7" version="13.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-11T15:50:53.661Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="fiuFLWIzJwX7RYP7Vl4f" version="13.6.2" type="github" pages="2">
   <diagram id="wPF1p56tK3YEznqjjGRR" name="Information Artefacts">
     <mxGraphModel dx="1795" dy="1412" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -383,6 +383,15 @@
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="777" y="477" as="sourcePoint" />
             <mxPoint x="877" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12LY-tpa5QZVjIez0GfZ-30" value="Purchase Order&lt;br&gt;(Declined)" style="shape=note;whiteSpace=wrap;size=16;html=1;dropTarget=0;fillColor=none;" vertex="1" parent="7fllwTgMmEInO7BE3Gv8-1">
+          <mxGeometry x="530" y="526" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12LY-tpa5QZVjIez0GfZ-31" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="7fllwTgMmEInO7BE3Gv8-1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="549.5" y="473" as="sourcePoint" />
+            <mxPoint x="550.5" y="525" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
