@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-11T16:08:29.777Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="MUUBSWc3nvqHSYIghYgE" version="13.6.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-08-11T16:11:36.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="pPPAqkArm2wxVfs9zeDu" version="13.6.2" type="github" pages="4">
   <diagram id="wPF1p56tK3YEznqjjGRR" name="Information Artefacts">
     <mxGraphModel dx="1795" dy="1412" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -433,7 +433,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GoLnDzJSgjwSvpzooE1k" name="Message Flow">
-    <mxGraphModel dx="438" dy="615" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="720" dy="615" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="8TMZo_dq8D0GyLGULoe--0" />
         <mxCell id="8TMZo_dq8D0GyLGULoe--1" parent="8TMZo_dq8D0GyLGULoe--0" />
@@ -544,8 +544,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SBdKmovkomXeMivuy7Xl-27" value="Message Flow can connect in different pool and lane&lt;br style=&quot;font-size: 16px;&quot;&gt;But not able to connect in the same pool/lane" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="8TMZo_dq8D0GyLGULoe--1">
-          <mxGeometry x="239" y="78" width="383" height="42" as="geometry" />
+        <mxCell id="SBdKmovkomXeMivuy7Xl-27" value="Message Flow can connect in different pool&lt;br style=&quot;font-size: 16px&quot;&gt;But not able to connect in the same pool/lane" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="8TMZo_dq8D0GyLGULoe--1">
+          <mxGeometry x="266" y="78" width="330" height="42" as="geometry" />
         </mxCell>
         <mxCell id="SBdKmovkomXeMivuy7Xl-28" value="Sequence Flow cannot be connect in different pool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="8TMZo_dq8D0GyLGULoe--1">
           <mxGeometry x="243" y="44" width="369" height="23" as="geometry" />
