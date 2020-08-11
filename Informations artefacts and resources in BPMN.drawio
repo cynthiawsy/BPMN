@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-11T16:01:26.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="lbENJekCWA2tT04XsMSJ" version="13.6.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-08-11T16:08:29.777Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="MUUBSWc3nvqHSYIghYgE" version="13.6.2" type="github" pages="4">
   <diagram id="wPF1p56tK3YEznqjjGRR" name="Information Artefacts">
     <mxGraphModel dx="1795" dy="1412" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -432,11 +432,127 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="GoLnDzJSgjwSvpzooE1k" name="Page-4">
-    <mxGraphModel dx="612" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <diagram id="GoLnDzJSgjwSvpzooE1k" name="Message Flow">
+    <mxGraphModel dx="438" dy="615" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="8TMZo_dq8D0GyLGULoe--0" />
         <mxCell id="8TMZo_dq8D0GyLGULoe--1" parent="8TMZo_dq8D0GyLGULoe--0" />
+        <mxCell id="SBdKmovkomXeMivuy7Xl-0" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;" edge="1" parent="8TMZo_dq8D0GyLGULoe--1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="69" y="137" as="sourcePoint" />
+            <mxPoint x="332" y="137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-1" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;" edge="1" parent="8TMZo_dq8D0GyLGULoe--1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="67" y="184" as="sourcePoint" />
+            <mxPoint x="343" y="184" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-2" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="SBdKmovkomXeMivuy7Xl-1">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-3" value="Purchase Order" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SBdKmovkomXeMivuy7Xl-1">
+          <mxGeometry x="0.1739" y="-2" relative="1" as="geometry">
+            <mxPoint x="-20" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-4" value="Member" style="swimlane;html=1;horizontal=0;startSize=20;fillColor=none;" vertex="1" parent="8TMZo_dq8D0GyLGULoe--1">
+          <mxGeometry x="54" y="271" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SBdKmovkomXeMivuy7Xl-4" source="SBdKmovkomXeMivuy7Xl-7" target="SBdKmovkomXeMivuy7Xl-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-7" value="Lodge Insurance Claim" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=none;" vertex="1" parent="SBdKmovkomXeMivuy7Xl-4">
+          <mxGeometry x="40" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-8" value="Receive Anser" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=none;" vertex="1" parent="SBdKmovkomXeMivuy7Xl-4">
+          <mxGeometry x="186" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-5" value="Insurance Company" style="swimlane;html=1;horizontal=0;startSize=20;fillColor=none;" vertex="1" parent="8TMZo_dq8D0GyLGULoe--1">
+          <mxGeometry x="52" y="543" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-12" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;entryX=0.35;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SBdKmovkomXeMivuy7Xl-5" target="SBdKmovkomXeMivuy7Xl-8">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="232" y="-3" as="sourcePoint" />
+            <mxPoint x="332" y="-3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-13" value="Answer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SBdKmovkomXeMivuy7Xl-12">
+          <mxGeometry x="-0.2834" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-10" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;exitX=0.325;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="8TMZo_dq8D0GyLGULoe--1" source="SBdKmovkomXeMivuy7Xl-7" target="SBdKmovkomXeMivuy7Xl-5">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="103" y="507" as="sourcePoint" />
+            <mxPoint x="203" y="507" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-11" value="Insurance Claim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SBdKmovkomXeMivuy7Xl-10">
+          <mxGeometry x="-0.4642" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-14" value="Member" style="swimlane;html=1;horizontal=0;startSize=20;fillColor=none;" vertex="1" parent="8TMZo_dq8D0GyLGULoe--1">
+          <mxGeometry x="406" y="271" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SBdKmovkomXeMivuy7Xl-14" source="SBdKmovkomXeMivuy7Xl-16" target="SBdKmovkomXeMivuy7Xl-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-16" value="Lodge Insurance Claim" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=none;" vertex="1" parent="SBdKmovkomXeMivuy7Xl-14">
+          <mxGeometry x="40" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-17" value="Receive Anser" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=none;" vertex="1" parent="SBdKmovkomXeMivuy7Xl-14">
+          <mxGeometry x="186" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-18" value="Insurance Company" style="swimlane;html=1;horizontal=0;startSize=20;fillColor=none;" vertex="1" parent="8TMZo_dq8D0GyLGULoe--1">
+          <mxGeometry x="404" y="543" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-26" value="Send Answer" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fillColor=none;" vertex="1" parent="SBdKmovkomXeMivuy7Xl-18">
+          <mxGeometry x="172" y="38" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-30" value="White Box" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=22;" vertex="1" parent="SBdKmovkomXeMivuy7Xl-18">
+          <mxGeometry x="92" y="129" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-21" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;exitX=0.325;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="8TMZo_dq8D0GyLGULoe--1" source="SBdKmovkomXeMivuy7Xl-16" target="SBdKmovkomXeMivuy7Xl-18">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="455" y="507" as="sourcePoint" />
+            <mxPoint x="555" y="507" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-22" value="Insurance Claim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SBdKmovkomXeMivuy7Xl-21">
+          <mxGeometry x="-0.4642" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-23" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.386;exitY=0.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="8TMZo_dq8D0GyLGULoe--1" source="SBdKmovkomXeMivuy7Xl-26" target="SBdKmovkomXeMivuy7Xl-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="540" as="sourcePoint" />
+            <mxPoint x="720" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-24" value="" style="shape=message;html=1;outlineConnect=0;" vertex="1" parent="SBdKmovkomXeMivuy7Xl-23">
+          <mxGeometry width="20" height="14" relative="1" as="geometry">
+            <mxPoint x="-10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-25" value="Answer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SBdKmovkomXeMivuy7Xl-23">
+          <mxGeometry x="-0.531" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-27" value="Message Flow can connect in different pool and lane&lt;br style=&quot;font-size: 16px;&quot;&gt;But not able to connect in the same pool/lane" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="8TMZo_dq8D0GyLGULoe--1">
+          <mxGeometry x="239" y="78" width="383" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-28" value="Sequence Flow cannot be connect in different pool" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;" vertex="1" parent="8TMZo_dq8D0GyLGULoe--1">
+          <mxGeometry x="243" y="44" width="369" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="SBdKmovkomXeMivuy7Xl-29" value="Black Box" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=22;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="8TMZo_dq8D0GyLGULoe--1">
+          <mxGeometry x="168" y="672" width="108" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
