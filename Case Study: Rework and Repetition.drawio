@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-08-13T15:18:46.985Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="9J109jst7FZtPfrshChK" version="13.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-13T15:20:05.312Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="XUrA813C153N5SKLFYNZ" version="13.6.2" type="github" pages="2">
   <diagram id="dfY-gLeqsnhQPRXo_ai5" name="My Answer">
     <mxGraphModel dx="432" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lhw8ucclOCccu-QhZmbW-0" />
         <mxCell id="lhw8ucclOCccu-QhZmbW-1" parent="lhw8ucclOCccu-QhZmbW-0" />
         <mxCell id="lhw8ucclOCccu-QhZmbW-2" value="Nobel Committee" style="swimlane;html=1;horizontal=0;startSize=20;" vertex="1" parent="lhw8ucclOCccu-QhZmbW-1">
-          <mxGeometry x="21" y="370" width="1770" height="370" as="geometry" />
+          <mxGeometry x="22" y="370" width="1770" height="370" as="geometry" />
         </mxCell>
         <mxCell id="6n_kSGmFRPq1lRoPrrGv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lhw8ucclOCccu-QhZmbW-2" source="lhw8ucclOCccu-QhZmbW-3" target="lhw8ucclOCccu-QhZmbW-4">
           <mxGeometry relative="1" as="geometry" />
@@ -28,11 +28,8 @@
         <mxCell id="6n_kSGmFRPq1lRoPrrGv-0" value="Collect nomination form" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" vertex="1" parent="lhw8ucclOCccu-QhZmbW-2">
           <mxGeometry x="460" y="145" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6n_kSGmFRPq1lRoPrrGv-1" value="" style="shape=parallelMarker;html=1;outlineConnect=0;" vertex="1" parent="lhw8ucclOCccu-QhZmbW-2">
-          <mxGeometry x="513" y="214" width="14" height="14" as="geometry" />
-        </mxCell>
         <mxCell id="6n_kSGmFRPq1lRoPrrGv-2" value="" style="shape=mxgraph.bpmn.loop;html=1;outlineConnect=0;" vertex="1" parent="lhw8ucclOCccu-QhZmbW-2">
-          <mxGeometry x="527" y="214" width="14" height="14" as="geometry" />
+          <mxGeometry x="513" y="211" width="14" height="14" as="geometry" />
         </mxCell>
         <mxCell id="6n_kSGmFRPq1lRoPrrGv-3" value="Until 31/Jan/2021" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="lhw8ucclOCccu-QhZmbW-2">
           <mxGeometry x="541" y="10" width="50" height="100" as="geometry" />
@@ -83,8 +80,8 @@
         </mxCell>
         <mxCell id="6n_kSGmFRPq1lRoPrrGv-28" value="" style="startArrow=oval;startFill=0;startSize=7;endArrow=block;endFill=0;endSize=10;dashed=1;html=1;" edge="1" parent="lhw8ucclOCccu-QhZmbW-2">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="990" y="185" as="sourcePoint" />
-            <mxPoint x="990" y="410" as="targetPoint" />
+            <mxPoint x="1079" y="228" as="sourcePoint" />
+            <mxPoint x="1079" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6n_kSGmFRPq1lRoPrrGv-29" value="List of preliminary candidates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6n_kSGmFRPq1lRoPrrGv-28">
