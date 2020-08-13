@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-12T16:57:09.721Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="IhmHkYPkYSGAFhvWxtnz" version="13.6.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-08-13T14:39:08.715Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="psGNRAdm4ecZpXjtMu8s" version="13.6.2" type="github" pages="4">
   <diagram id="XbmCLFcZmLmQ6wtDQV7Q" name="Message Events">
     <mxGraphModel dx="1197" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -212,7 +212,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="11uwSYMP7IWZJ2fWoJQ_" name="Time Events">
-    <mxGraphModel dx="2211" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2317" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="mxgCRNIYhX8iZWbbocOg-0" />
         <mxCell id="mxgCRNIYhX8iZWbbocOg-1" parent="mxgCRNIYhX8iZWbbocOg-0" />
@@ -276,7 +276,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eEifqJnamfjFeHC_E7JB" name="Event-Driven Gateway">
-    <mxGraphModel dx="390" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="464" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="QeU2lEiAdPUL_MTzACor-0" />
         <mxCell id="QeU2lEiAdPUL_MTzACor-1" parent="QeU2lEiAdPUL_MTzACor-0" />
@@ -317,16 +317,22 @@
         <mxCell id="QeU2lEiAdPUL_MTzACor-11" value="Event Driven Gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;" vertex="1" parent="QeU2lEiAdPUL_MTzACor-1">
           <mxGeometry x="145" y="320" width="180" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="bx_15k5So3HQzW1ntMH8-1" value="if you need to wait for action, you will use Event Driven Gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QeU2lEiAdPUL_MTzACor-1">
+          <mxGeometry x="20" y="440" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bx_15k5So3HQzW1ntMH8-2" value="See whether there are events at the back" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QeU2lEiAdPUL_MTzACor-1">
+          <mxGeometry x="20" y="490" width="380" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="GQECI2PgxfBwAdUg-Lrx" name="Matching Choices">
-    <mxGraphModel dx="390" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="464" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VML7cbIzM-KfiChJGVg_-0" />
         <mxCell id="VML7cbIzM-KfiChJGVg_-1" parent="VML7cbIzM-KfiChJGVg_-0" />
         <mxCell id="VML7cbIzM-KfiChJGVg_-2" value="2 Corresponding pools&lt;br style=&quot;font-size: 20px&quot;&gt;1 XOR&lt;br style=&quot;font-size: 20px&quot;&gt;1 Event Driven Split" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="VML7cbIzM-KfiChJGVg_-1">
-          <mxGeometry x="5" y="50" width="220" height="80" as="geometry" />
+          <mxGeometry x="40" y="40" width="220" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
